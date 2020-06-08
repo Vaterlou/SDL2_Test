@@ -47,21 +47,22 @@ int main( int argc, char *argv[] )
         return 1;
     }
     
+    const std::string PATH = "/Users/denisgoncarov/Documents"; //Need change a Path
     
     std::vector<std::string> res1 =
     {
-        "/Users/denisgoncarov/Documents/SDL2_Test/hello.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/tiger.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/button2.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/button1.bmp"
+        PATH + "/SDL2_Test/hello.bmp",
+        PATH + "/SDL2_Test/tiger.bmp",
+        PATH + "/SDL2_Test/button2.bmp",
+        PATH + "/SDL2_Test/button1.bmp"
     };
     
     std::vector<std::string> res2 =
     {
-        "/Users/denisgoncarov/Documents/SDL2_Test/helloeveryone.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/korova.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/button2.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/button1.bmp"
+        PATH + "/SDL2_Test/helloeveryone.bmp",
+        PATH + "/SDL2_Test/korova.bmp",
+        PATH + "/SDL2_Test/button2.bmp",
+        PATH + "/SDL2_Test/button1.bmp"
     };
     
     auto container = init_container(win, ren, res1);
