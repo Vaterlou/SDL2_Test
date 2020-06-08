@@ -50,16 +50,16 @@ int main( int argc, char *argv[] )
     
     std::vector<std::string> res1 =
     {
-        "/Users/denisgoncarov/Documents/SDL2_Test/tiger.bmp",
         "/Users/denisgoncarov/Documents/SDL2_Test/hello.bmp",
+        "/Users/denisgoncarov/Documents/SDL2_Test/tiger.bmp",
         "/Users/denisgoncarov/Documents/SDL2_Test/button2.bmp",
         "/Users/denisgoncarov/Documents/SDL2_Test/button1.bmp"
     };
     
     std::vector<std::string> res2 =
     {
-        "/Users/denisgoncarov/Documents/SDL2_Test/hello.bmp",
-        "/Users/denisgoncarov/Documents/SDL2_Test/tiger.bmp",
+        "/Users/denisgoncarov/Documents/SDL2_Test/helloeveryone.bmp",
+        "/Users/denisgoncarov/Documents/SDL2_Test/korova.bmp",
         "/Users/denisgoncarov/Documents/SDL2_Test/button2.bmp",
         "/Users/denisgoncarov/Documents/SDL2_Test/button1.bmp"
     };
